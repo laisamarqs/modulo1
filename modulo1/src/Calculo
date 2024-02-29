@@ -1,0 +1,50 @@
+Pilha:
+push():
+
+Tempo: O(n) - devido à possível realocação de memória quando a capacidade da pilha é aumentada.
+Espaço: O(1) - não é alocada memória adicional além do espaço já alocado para a pilha.
+pop():
+
+Tempo: O(1) - operação constante, pois só precisamos acessar e modificar um único elemento.
+Espaço: O(1) - não há alocamento de memória adicional.
+
+
+Fila:
+enqueue():
+
+Tempo: O(1) - operação constante, pois adicionamos um elemento ao final da fila.
+Espaço: O(1) - não é alocada memória adicional além do espaço já alocado para a fila.
+dequeue():
+
+Tempo: O(1) - operação constante, pois removemos o primeiro elemento da fila.
+Espaço: O(1) - não há alocamento de memória adicional.
+rear():
+
+Tempo: O(1) - operação constante, pois acessamos o último elemento da fila.
+Espaço: O(1) - não há alocamento de memória adicional.
+front():
+
+Tempo: O(1) - operação constante, pois acessamos o primeiro elemento da fila.
+Espaço: O(1) - não há alocamento de memória adicional.
+
+Lista Encadeada:
+push():
+
+Tempo: O(n) - devido ao pior caso de ter que percorrer toda a lista para encontrar o último nó.
+Espaço: O(1) - não é alocada memória adicional além do espaço já alocado para a lista.
+pop():
+
+Tempo: O(n) - devido ao pior caso de ter que percorrer toda a lista para encontrar o último nó a ser removido.
+Espaço: O(1) - não há alocamento de memória adicional.
+insert():
+
+Tempo: O(n) - devido ao pior caso de ter que percorrer toda a lista para encontrar o nó na posição desejada.
+Espaço: O(1) - não é alocada memória adicional além do espaço já alocado para a lista.
+remove():
+
+Tempo: O(n) - devido ao pior caso de ter que percorrer toda a lista para encontrar o nó a ser removido.
+Espaço: O(1) - não há alocamento de memória adicional.
+elementAt():
+
+Tempo: O(n) - devido ao pior caso de ter que percorrer toda a lista para encontrar o nó na posição desejada.
+Espaço: O(1) - não é alocada memória adicional além do espaço já alocado para a lista.
